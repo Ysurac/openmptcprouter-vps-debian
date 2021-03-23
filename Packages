@@ -307,10 +307,10 @@ Conflicts: omr-server
 Replaces: omr-server
 Provides: omr-server
 Filename: ./omr-server_0.1025-test_all.deb
-Size: 3956332
-MD5sum: 02eef102d69687cbff1393f6eeb3b3da
-SHA1: 0ddb1b86b7fba794370b7ed95b33a7bec318cf9c
-SHA256: 35be0c5dfc33143581283eb62b1d34824f84badd962397c2bcf43c790316bd37
+Size: 3956340
+MD5sum: ad0fd4f5cf4fd33e2cb83160138adc81
+SHA1: 29a5e3135a76218215a28a0e4fe4938bd3d025fe
+SHA256: 534a1447d5f95fb8faeaa1c309f041957dd8d04b875cba8797ce18220f2a5fb0
 Section: net
 Priority: optional
 Multi-Arch: foreign
