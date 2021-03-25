@@ -381,6 +381,23 @@ Multi-Arch: foreign
 Homepage: https://github.com/ysurac/openmptcprouter-vps-admin
 Description: OpenMPTCProuter VPS admin rest api
 
+Package: omr-vps-admin
+Version: 0.3+20210325
+Architecture: all
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 154
+Depends: python3:any, python3-uvicorn, python3-netaddr, python3-pip, python3-netifaces, python3-aiofiles, python3-psutil, jq, ipcalc
+Filename: ./omr-vps-admin_0.3+20210325_all.deb
+Size: 20908
+MD5sum: eca667da20adaa030f726a7283407228
+SHA1: 45e2d5bfade31baf5bc6fd1f4b4cf438756b7e96
+SHA256: 7fcda52690b710b5d080cde92b5bd679c81d58be1a998aa9f6346e39021e3fba
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/ysurac/openmptcprouter-vps-admin
+Description: OpenMPTCProuter VPS admin rest api
+
 Package: python3-flask
 Version: 1.0.2
 Architecture: all
