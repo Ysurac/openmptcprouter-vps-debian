@@ -301,16 +301,16 @@ Package: omr-server
 Version: 0.1025-test
 Architecture: all
 Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
-Installed-Size: 4039
+Installed-Size: 4043
 Depends: curl, rename, libcurl4, unzip, tracebox, omr-iperf3, omr-shadowsocks-libev (= 3.3.5-1), omr-vps-admin (= 0.3+20210304), omr-simple-obfs, omr-mlvpn (= 3.0.0+20201216.git.2263bab), omr-glorytun (= 0.3.4-4), omr-glorytun-tcp (= 0.0.35-3), omr-dsvpn (= 0.1.4-2), shorewall, shorewall6, iptables, v2ray-plugin (= 4.35.1), v2ray (= 4.35.1), linux-image-5.4.100-mptcp (= 1.18+9d3f35b)
 Conflicts: omr-server
 Replaces: omr-server
 Provides: omr-server
 Filename: ./omr-server_0.1025-test_all.deb
-Size: 3956340
-MD5sum: ad0fd4f5cf4fd33e2cb83160138adc81
-SHA1: 29a5e3135a76218215a28a0e4fe4938bd3d025fe
-SHA256: 534a1447d5f95fb8faeaa1c309f041957dd8d04b875cba8797ce18220f2a5fb0
+Size: 3957216
+MD5sum: 379090d404d6b062990242b6e2c783d0
+SHA1: ea704d7f2421931bcc936fd28599ee4f48383991
+SHA256: 8a9aee4f6c486176a21b24799b2fe7723170a958101eec25573bb65f14258476
 Section: net
 Priority: optional
 Multi-Arch: foreign
@@ -392,6 +392,23 @@ Size: 20908
 MD5sum: eca667da20adaa030f726a7283407228
 SHA1: 45e2d5bfade31baf5bc6fd1f4b4cf438756b7e96
 SHA256: 7fcda52690b710b5d080cde92b5bd679c81d58be1a998aa9f6346e39021e3fba
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/ysurac/openmptcprouter-vps-admin
+Description: OpenMPTCProuter VPS admin rest api
+
+Package: omr-vps-admin
+Version: 0.3+20210414
+Architecture: all
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 154
+Depends: python3:any, python3-uvicorn, python3-netaddr, python3-pip, python3-netifaces, python3-aiofiles, python3-psutil, jq, ipcalc
+Filename: ./omr-vps-admin_0.3+20210414_all.deb
+Size: 21140
+MD5sum: 61facdfad80772c8648eb0745b6a80a0
+SHA1: a590c48ee22de74760d2469bb6dcc871dbbc73a3
+SHA256: 0f6a98614300c6b567677861375bfd8a46dfdb8ac8c64cde98a06af28edf153d
 Section: net
 Priority: optional
 Multi-Arch: foreign
