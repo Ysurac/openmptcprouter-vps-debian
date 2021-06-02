@@ -280,6 +280,34 @@ Description: lightweight and secure socks5 proxy (shared library)
  .
  This package provides shared libraries.
 
+Package: omr-libshadowsocks-libev2
+Source: omr-shadowsocks-libev
+Version: 3.3.5-2
+Architecture: amd64
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 232
+Depends: libc-ares2 (>= 1.7.0), libc6 (>= 2.14), libev4 (>= 1:4.04), libmbedcrypto3 (>= 2.13), libpcre3, libsodium23 (>= 1.0.12)
+Breaks: libshadowsocks-libev1, libshadowsocks-libev2, shadowsocks-libev
+Replaces: libshadowsocks-libev1
+Filename: ./omr-libshadowsocks-libev2_3.3.5-2_amd64.deb
+Size: 81660
+MD5sum: 60c8e3a7154f3fa68e6eca992385574f
+SHA1: 0a48450c502a6e30c5fa0ae64eed915a51ecbf6d
+SHA256: bea9e06b9280a0d426ee91643be92dc6f1ed05cf0921edeca9e77641762f7e0d
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.shadowsocks.org
+Description: lightweight and secure socks5 proxy (shared library)
+ Shadowsocks-libev is a lightweight and secure socks5 proxy for
+ embedded devices and low end boxes.
+ .
+ Shadowsocks-libev was inspired by Shadowsocks (in Python). It's rewritten
+ in pure C and only depends on libev, mbedTLS and a few other tiny
+ libraries.
+ .
+ This package provides shared libraries.
+
 Package: omr-mlvpn
 Version: 3.0.0+20201216.git.2263bab
 Architecture: amd64
@@ -331,6 +359,31 @@ Size: 202048
 MD5sum: a930128f21f83d6084f4260d95235658
 SHA1: cb2c8295b41d749525650a95b786b11e9b4bfaea
 SHA256: 64cc1fc31fdd70aa27bd81499fa638b8ba6c9eb16b0c08290ed2a33ef0c9086b
+Section: net
+Priority: optional
+Homepage: https://www.shadowsocks.org
+Description: lightweight and secure socks5 proxy
+ Shadowsocks-libev is a lightweight and secure socks5 proxy for
+ embedded devices and low end boxes.
+ .
+ Shadowsocks-libev was inspired by Shadowsocks (in Python). It's rewritten
+ in pure C and only depends on libev, mbedTLS and a few other tiny
+ libraries.
+
+Package: omr-shadowsocks-libev
+Version: 3.3.5-2
+Architecture: amd64
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 1042
+Depends: libcap2-bin, lsb-base (>= 3.0-6), libc-ares2 (>= 1.11.0~rc1), libc6 (>= 2.14), libev4 (>= 1:4.04), libmbedcrypto3 (>= 2.13), libpcre3, libsodium23 (>= 1.0.12)
+Suggests: haveged, kcptun, simple-obfs
+Breaks: shadowsocks
+Replaces: shadowsocks
+Filename: ./omr-shadowsocks-libev_3.3.5-2_amd64.deb
+Size: 202440
+MD5sum: e1c064892c510ad99489be6a067035ac
+SHA1: 4818937f2816990d1e1b82e6cdbde90e3ca079d3
+SHA256: 2f671c63e4eb49e883f424d4c7e07aac19f397ca08311af41c5162d8bc4cff1e
 Section: net
 Priority: optional
 Homepage: https://www.shadowsocks.org
