@@ -345,6 +345,26 @@ Multi-Arch: foreign
 Homepage: https://github.com/ysurac/openmptcprouter-vps
 Description: OpenMPTCProuter Server script
 
+Package: omr-server
+Version: 0.1026
+Architecture: all
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 4041
+Depends: curl, rename, libcurl4, unzip, tracebox, omr-iperf3, omr-shadowsocks-libev (= 3.3.5-2), omr-vps-admin (= 0.3+20210508), omr-simple-obfs, omr-mlvpn (= 3.0.0+20201216.git.2263bab), omr-glorytun (= 0.3.4-4), omr-glorytun-tcp (= 0.0.35-3), omr-dsvpn (= 0.1.4-2), shorewall, shorewall6, iptables, v2ray-plugin (= 4.35.1), v2ray (= 4.35.1), linux-image-5.4.100-mptcp (= 1.18+9d3f35b)
+Conflicts: omr-server
+Replaces: omr-server
+Provides: omr-server
+Filename: ./omr-server_0.1026_all.deb
+Size: 3957180
+MD5sum: 456f375b198b338ae5627a951e9bc6fd
+SHA1: d578704f0807db948db001f414aa845e5d60cd8a
+SHA256: dbac5acd869d818b19bb0c282350a80fd9ba2972d1fda54c67c2d491dfd680a3
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/ysurac/openmptcprouter-vps
+Description: OpenMPTCProuter Server script
+
 Package: omr-shadowsocks-libev
 Version: 3.3.5-1
 Architecture: amd64
