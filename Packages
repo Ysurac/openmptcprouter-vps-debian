@@ -1,0 +1,1051 @@
+Package: libjson-c3
+Source: json-c
+Version: 0.12.1+ds-2
+Architecture: amd64
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 74
+Depends: libc6 (>= 2.14)
+Filename: ./libjson-c3_0.12.1+ds-2_amd64.deb
+Size: 26912
+MD5sum: 20b1bcf3c0fe06aa6a3beeebe1ba2083
+SHA1: 3e9109a40b831b2707e5fb1c5536fde692ab6d6b
+SHA256: 5b0194dac67efa04ef6df15e3080bd53448b0209f6cf25ff6a46c6ba8dccc354
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/json-c/json-c/wiki
+Description: JSON manipulation library - shared library
+ This library allows you to easily construct JSON objects in C,
+ output them as JSON formatted strings and parse JSON formatted
+ strings back into the C representation of JSON objects.
+
+Package: libsodium18
+Source: libsodium
+Version: 1.0.13-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 487
+Depends: libc6 (>= 2.14)
+Filename: ./libsodium18_1.0.13-1_amd64.deb
+Size: 166988
+MD5sum: 5e6db202feee2534589e974e6d01f238
+SHA1: 211cda6674dd1aebc935251f6d7a9fbf4665dfef
+SHA256: 714e778e16d1bce7ccb1d89fcdd3e21a875046b9ada419ba70058f73b76e086d
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.libsodium.org/
+Description: Network communication, cryptography and signaturing library
+ NaCl (pronounced "salt") is a new easy-to-use high-speed software library for
+ network communication, encryption, decryption, signatures, etc.
+ .
+ NaCl's goal is to provide all of the core operations needed to build
+ higher-level cryptographic tools.
+ .
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl,
+ with a compatible API.
+Original-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+
+Package: libuv1
+Version: 1.34.2-1
+Architecture: amd64
+Maintainer: Dominique Dumont <dod@debian.org>
+Installed-Size: 290
+Depends: libc6 (>= 2.14)
+Filename: ./libuv1_1.34.2-1_amd64.deb
+Size: 126576
+MD5sum: 10e64475e10c58b78ecbe6f1b0affcd9
+SHA1: 0c8c8876d32ac0362e20d0f9abe41bb7b869c0f7
+SHA256: 24d47ab8ffe1c81946f006e3f425e1ce51230eeed88950d69b5f585d2023c214
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/libuv/libuv
+Description: asynchronous event notification library - runtime library
+ Libuv is the asynchronous library behind Node.js. Very similar to libevent or
+ libev, it provides the main elements for event driven systems: watching and
+ waiting for availability in a set of sockets, and some other events like timers
+ or asynchronous messages. However, libuv also comes with some other extras
+ like:
+  * files watchers and asynchronous operations
+  * a portable TCP and UDP API, as well as asynchronous DNS resolution
+  * processes and threads management, and a portable inter-process
+    communications mechanism, with pipes and work queues
+  * a plugins mechanism for loading libraries dynamically
+  * interface with external libraries that also need to access the I/O.
+ .
+ This package includes the dynamic library against which you can link
+ your program.
+
+Package: linux-libc-dev
+Source: linux-upstream
+Version: 5.15.57-1.6
+Architecture: amd64
+Maintainer: root <root@vps407669>
+Installed-Size: 6244
+Provides: linux-kernel-headers
+Filename: ./linux-libc-dev_5.15.57-1.6_amd64.deb
+Size: 1200984
+MD5sum: 76495087e2a7175ce5baaf81b8352a59
+SHA1: 7928c6c485e15c530dd93ed92f7f448a1f35a921
+SHA256: 21954301ff4fc7f03101401b7bc32043e347cc56d6e8224dd94c30d4f5558de1
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: mlvpn
+Version: 2.3.5
+Architecture: amd64
+Maintainer: Laurent Coustet <ed@zehome.com>
+Installed-Size: 182
+Depends: libc6 (>= 2.14), libev4 (>= 1:4.04), libpcap0.8 (>= 1.0.0), libsodium23 (>= 0.6.0), net-tools, adduser, passwd, lsb-base
+Filename: ./mlvpn_2.3.5_amd64.deb
+Size: 51228
+MD5sum: 68f7631f6fb508b32f31ee6bfa298d35
+SHA1: a328629409b48aac708af9c671146e66d1b15379
+SHA256: cb922435bfa8e5fc3ae286983e2e14c1360c872580bcb8a3e897c13b09566bb2
+Section: net
+Priority: optional
+Homepage: http://www.mlvpn.fr/
+Description: MultiLink Virtual Public Network aggregator.
+ MLVPN aggregates multiple links into one tun/tap tunnel.
+
+Package: omr-dsvpn
+Version: 0.1.4-2
+Architecture: amd64
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 51
+Filename: ./omr-dsvpn_0.1.4-2_amd64.deb
+Size: 12072
+MD5sum: f6176bbb7854e7b962c6c2efbd7e7322
+SHA1: e1266026ef990a3c1dbcd6168f80b33babde6628
+SHA256: 1e89ece6b42368f5c7e399e61a82d4cd870c37b55856a6a5e0568a6fdb8d9d9c
+Section: net
+Priority: optional
+Homepage: https://github.com/angt/glorytun
+Description: A Dead Simple VPN
+ DSVPN is a Dead Simple VPN
+
+Package: omr-glorytun
+Version: 0.3.4-4
+Architecture: amd64
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 84
+Depends: meson
+Filename: ./omr-glorytun_0.3.4-4_amd64.deb
+Size: 26904
+MD5sum: db51429011d64367cee6dc99e51774a1
+SHA1: 22f21ac72a8b6ba96ca85d5f3970b31224812295
+SHA256: 1d6af69082279093e234e1c80d59c7b6e6b556cf8fb886ad403619ba04305404
+Section: net
+Priority: optional
+Homepage: https://github.com/angt/glorytun
+Description: A small, simple and secure VPN
+ Glorytun is a small, simple and secure VPN over MUD
+
+Package: omr-glorytun
+Version: 0.3.4-5
+Architecture: amd64
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 84
+Depends: meson
+Filename: ./omr-glorytun_0.3.4-5_amd64.deb
+Size: 26968
+MD5sum: 41ebc5ac8ea341dffe9d10948e158d9a
+SHA1: 15f617fb7ef1b8c3cf0abda882da07ec9192b494
+SHA256: e5dafdb832fd5ed615b5f7b539b074bb21792ae92b6f70bb22ea9046b3dcde5a
+Section: net
+Priority: optional
+Homepage: https://github.com/angt/glorytun
+Description: A small, simple and secure VPN
+ Glorytun is a small, simple and secure VPN over MUD
+
+Package: omr-glorytun-tcp
+Version: 0.0.35-3
+Architecture: amd64
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 58
+Depends: meson
+Filename: ./omr-glorytun-tcp_0.0.35-3_amd64.deb
+Size: 16640
+MD5sum: 12b96982e2ca60ed91fa1f48a3c02e27
+SHA1: bfb522eb0dcdcff3de288556c74fff3a53bbb4c7
+SHA256: 57f94f7cfba32e8b55348e6a8c05e9e42fca9a90bf03805dd82aa1a5abbef514
+Section: net
+Priority: optional
+Homepage: https://github.com/angt/glorytun
+Description: A small, simple and secure VPN
+ Glorytun is a small, simple and secure VPN
+
+Package: omr-glorytun-tcp
+Version: 0.0.35-4
+Architecture: amd64
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 58
+Depends: meson
+Filename: ./omr-glorytun-tcp_0.0.35-4_amd64.deb
+Size: 16776
+MD5sum: 0c091af9163732c94c940135b18b9e31
+SHA1: 264aa5b2766bc0c777ef2bc67da0e63fbfb17b84
+SHA256: 6d75985152b7bc8c30e85200ffac8823221686644276bbf6df73bb67efa68377
+Section: net
+Priority: optional
+Homepage: https://github.com/angt/glorytun
+Description: A small, simple and secure VPN
+ Glorytun is a small, simple and secure VPN
+
+Package: omr-glorytun-tcp
+Version: 0.0.35-6
+Architecture: amd64
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 58
+Depends: meson
+Filename: ./omr-glorytun-tcp_0.0.35-6_amd64.deb
+Size: 16884
+MD5sum: a8626478d2c5fd432ba020a9a9ce8a5a
+SHA1: bee981efbcef04792e3a62ad30bc8edaa987ca8b
+SHA256: 3fc06efee83bd4398ca55b24c87b35ef0a7905fb7cc93dd7d438be783250810e
+Section: net
+Priority: optional
+Homepage: https://github.com/angt/glorytun
+Description: A small, simple and secure VPN
+ Glorytun is a small, simple and secure VPN
+
+Package: omr-iperf3
+Version: 3.7-2
+Architecture: amd64
+Maintainer: Roberto Lumbreras <rover@debian.org>
+Installed-Size: 35
+Depends: omr-libiperf0, libsctp1, libssl1.1, libc6
+Filename: ./omr-iperf3_3.7-2_amd64.deb
+Size: 7120
+MD5sum: daf50b9775202a23c199a1e7fadc9ec0
+SHA1: 9513e2adf4099b53919ac11ee3e20fe3e2aee75a
+SHA256: 6f9fc2c54265753d4cb4cca5f6082808eaf8b5ce8c738f486e9c9c6849e6fa0e
+Section: net
+Priority: optional
+Homepage: http://software.es.net/iperf/
+Description: Internet Protocol bandwidth measuring tool
+ Iperf3 is a tool for performing network throughput measurements. It can
+ test either TCP or UDP throughput.
+ .
+ This is a new implementation that shares no code with the original
+ iperf from NLANR/DAST and also is not backwards compatible.
+ .
+ This package contains the command line utility.
+
+Package: omr-libiperf0
+Source: omr-iperf3
+Version: 3.7-2
+Architecture: amd64
+Maintainer: Roberto Lumbreras <rover@debian.org>
+Installed-Size: 204
+Depends: libc6 (>= 2.17), libsctp1 (>= 1.0.10+dfsg), libssl1.1 (>= 1.1.0)
+Filename: ./omr-libiperf0_3.7-2_amd64.deb
+Size: 67282
+MD5sum: f0aa317231b625a1261d1f6aa467e77a
+SHA1: 1a7f08d07d19c9b748751e5d1422e4f749f46fd1
+SHA256: bdc7ebe83dca09b6d084fc71f224118451d5d430bc1b375c749e0412508e917f
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://software.es.net/iperf/
+Description: Internet Protocol bandwidth measuring tool (runtime files)
+ Iperf3 is a tool for performing network throughput measurements. It can
+ test either TCP or UDP throughput.
+ .
+ This is a new implementation that shares no code with the original
+ iperf from NLANR/DAST and also is not backwards compatible.
+ .
+ This is the runtime package for programs that use the shared iperf
+ library.
+
+Package: omr-libiperf0-dbgsym
+Source: omr-iperf3
+Version: 3.6-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Roberto Lumbreras <rover@debian.org>
+Installed-Size: 174
+Depends: omr-libiperf0 (= 3.6-2)
+Filename: ./omr-libiperf0-dbgsym_3.6-2_amd64.deb
+Size: 143138
+MD5sum: 6bda93fbb21220872c73e45f29c01a94
+SHA1: 435cf802e2a05426e2b8e62edb74936d43b06346
+SHA256: bb54e33902d60f4252967e67a3cf52b8f138b12a57c87286f5a0122c0b8e352e
+Section: debug
+Priority: extra
+Multi-Arch: same
+Homepage: http://software.es.net/iperf/
+Description: Debug symbols for omr-libiperf0
+Build-Ids: 4ea09eb7e5b20699b74766b1191fb5a9352281c5
+
+Package: omr-libshadowsocks-libev-dev
+Source: omr-shadowsocks-libev
+Version: 3.3.5-3
+Architecture: amd64
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 26
+Depends: libshadowsocks-libev2 (= 3.3.5-3)
+Breaks: shadowsocks-libev
+Filename: ./omr-libshadowsocks-libev-dev_3.3.5-3_amd64.deb
+Size: 5816
+MD5sum: eb6bc30729900da4463d9938409cb575
+SHA1: 842f04d47bb9f46718a9ec5afd5333ff561c6ad1
+SHA256: 8a701231f8e86ad71ac08b7527363227498a136c7ca82f2993731beb69ca713d
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.shadowsocks.org
+Description: lightweight and secure socks5 proxy (development files)
+ Shadowsocks-libev is a lightweight and secure socks5 proxy for
+ embedded devices and low end boxes.
+ .
+ Shadowsocks-libev was inspired by Shadowsocks (in Python). It's rewritten
+ in pure C and only depends on libev, mbedTLS and a few other tiny
+ libraries.
+ .
+ This package provides C header files for the libraries.
+
+Package: omr-libshadowsocks-libev2
+Source: omr-shadowsocks-libev
+Version: 3.3.5-1
+Architecture: amd64
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 232
+Depends: libc-ares2 (>= 1.7.0), libc6 (>= 2.14), libev4 (>= 1:4.04), libmbedcrypto3 (>= 2.13), libpcre3, libsodium23 (>= 1.0.12)
+Breaks: libshadowsocks-libev1, libshadowsocks-libev2, shadowsocks-libev
+Replaces: libshadowsocks-libev1
+Filename: ./omr-libshadowsocks-libev2_3.3.5-1_amd64.deb
+Size: 81560
+MD5sum: d06fae4787ebc5562a5d0f489718e3a9
+SHA1: e9076ff887f60715db7729139d11533e1574eea0
+SHA256: e2cf015e08745bdddb475deb82855f741724dc7df8b3470b6f484b68ae72dd84
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.shadowsocks.org
+Description: lightweight and secure socks5 proxy (shared library)
+ Shadowsocks-libev is a lightweight and secure socks5 proxy for
+ embedded devices and low end boxes.
+ .
+ Shadowsocks-libev was inspired by Shadowsocks (in Python). It's rewritten
+ in pure C and only depends on libev, mbedTLS and a few other tiny
+ libraries.
+ .
+ This package provides shared libraries.
+
+Package: omr-libshadowsocks-libev2
+Source: omr-shadowsocks-libev
+Version: 3.3.5-2
+Architecture: amd64
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 232
+Depends: libc-ares2 (>= 1.7.0), libc6 (>= 2.14), libev4 (>= 1:4.04), libmbedcrypto3 (>= 2.13), libpcre3, libsodium23 (>= 1.0.12)
+Breaks: libshadowsocks-libev1, libshadowsocks-libev2, shadowsocks-libev
+Replaces: libshadowsocks-libev1
+Filename: ./omr-libshadowsocks-libev2_3.3.5-2_amd64.deb
+Size: 81660
+MD5sum: 60c8e3a7154f3fa68e6eca992385574f
+SHA1: 0a48450c502a6e30c5fa0ae64eed915a51ecbf6d
+SHA256: bea9e06b9280a0d426ee91643be92dc6f1ed05cf0921edeca9e77641762f7e0d
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.shadowsocks.org
+Description: lightweight and secure socks5 proxy (shared library)
+ Shadowsocks-libev is a lightweight and secure socks5 proxy for
+ embedded devices and low end boxes.
+ .
+ Shadowsocks-libev was inspired by Shadowsocks (in Python). It's rewritten
+ in pure C and only depends on libev, mbedTLS and a few other tiny
+ libraries.
+ .
+ This package provides shared libraries.
+
+Package: omr-libshadowsocks-libev2
+Source: omr-shadowsocks-libev
+Version: 3.3.5-3
+Architecture: amd64
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 232
+Depends: libc-ares2 (>= 1.7.0), libc6 (>= 2.14), libev4 (>= 1:4.04), libmbedcrypto3 (>= 2.13), libpcre3, libsodium23 (>= 1.0.12)
+Breaks: libshadowsocks-libev1, libshadowsocks-libev2, shadowsocks-libev
+Replaces: libshadowsocks-libev1
+Filename: ./omr-libshadowsocks-libev2_3.3.5-3_amd64.deb
+Size: 81664
+MD5sum: 8a85ab89a5b583ecd00015224941ca8d
+SHA1: 537cd30dda887e557a54bcb2234b86824223561d
+SHA256: 15e37bba530a422d468f0bf385bbca864b3b524977b27d301ce812e9679079a0
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.shadowsocks.org
+Description: lightweight and secure socks5 proxy (shared library)
+ Shadowsocks-libev is a lightweight and secure socks5 proxy for
+ embedded devices and low end boxes.
+ .
+ Shadowsocks-libev was inspired by Shadowsocks (in Python). It's rewritten
+ in pure C and only depends on libev, mbedTLS and a few other tiny
+ libraries.
+ .
+ This package provides shared libraries.
+
+Package: omr-mlvpn
+Version: 3.0.0+20201216.git.2263bab
+Architecture: amd64
+Maintainer: Laurent Coustet <ed@zehome.com>
+Installed-Size: 165
+Depends: libc6 (>= 2.14), libev4 (>= 1:4.04), libpcap0.8 (>= 1.0.0), libsodium23 (>= 0.6.0), net-tools, adduser, passwd, lsb-base
+Filename: ./omr-mlvpn_3.0.0+20201216.git.2263bab_amd64.deb
+Size: 48084
+MD5sum: 6e61f3f0f77675ab4f8deacc9ab88741
+SHA1: 266cdb072854b075d1375b185a931fbc12afce1c
+SHA256: 43e09b5abb8f2504f1745f876c4ad596ed248cd4915b909ca76c2c98534b498e
+Section: net
+Priority: optional
+Homepage: http://www.mlvpn.fr/
+Description: MultiLink Virtual Public Network aggregator.
+ MLVPN aggregates multiple links into one tun/tap tunnel.
+
+Package: omr-mlvpn
+Version: 3.0.0+20211028.git.ddafba3
+Architecture: amd64
+Maintainer: Laurent Coustet <ed@zehome.com>
+Installed-Size: 163
+Depends: libc6 (>= 2.14), libev4 (>= 1:4.04), libpcap0.8 (>= 1.0.0), libsodium23 (>= 0.6.0), net-tools, adduser, passwd, lsb-base
+Filename: ./omr-mlvpn_3.0.0+20211028.git.ddafba3_amd64.deb
+Size: 49336
+MD5sum: ae464ddc55c33d276b8d4d631ba931ca
+SHA1: 54a76c6f2cd58e1e39de12898b2b78f5cb228ecb
+SHA256: 0cdebbdb405fe154a9f661b1d236784190ffbdb69823d4fcb0333cedf7cd17e2
+Section: net
+Priority: optional
+Homepage: http://www.mlvpn.fr/
+Description: MultiLink Virtual Public Network aggregator.
+ MLVPN aggregates multiple links into one tun/tap tunnel.
+
+Package: omr-server
+Version: 0.1025-test
+Architecture: all
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 4040
+Depends: curl, rename, libcurl4, unzip, tracebox, omr-iperf3, omr-shadowsocks-libev (= 3.3.5-1), omr-vps-admin (= 0.3+20210304), omr-simple-obfs, omr-mlvpn (= 3.0.0+20201216.git.2263bab), omr-glorytun (= 0.3.4-4), omr-glorytun-tcp (= 0.0.35-3), omr-dsvpn (= 0.1.4-2), shorewall, shorewall6, iptables, v2ray-plugin (= 4.35.1), v2ray (= 4.35.1), linux-image-5.4.100-mptcp (= 1.18+9d3f35b)
+Conflicts: omr-server
+Replaces: omr-server
+Provides: omr-server
+Filename: ./omr-server_0.1025-test_all.deb
+Size: 3956800
+MD5sum: 33c387d3a7226c554cef9cd2aae57b4f
+SHA1: dfb49fa01cf62883e11bc7d347f49efcc026fb7d
+SHA256: 0f1ac248f887b28b4818d0c97f30efe1cebf8c0593b85dce5606a25ee11dccbf
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/ysurac/openmptcprouter-vps
+Description: OpenMPTCProuter Server script
+
+Package: omr-server
+Version: 0.1026
+Architecture: all
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 4041
+Depends: curl, rename, libcurl4, unzip, tracebox, omr-iperf3, omr-shadowsocks-libev (= 3.3.5-2), omr-vps-admin (= 0.3+20210508), omr-simple-obfs, omr-mlvpn (= 3.0.0+20201216.git.2263bab), omr-glorytun (= 0.3.4-4), omr-glorytun-tcp (= 0.0.35-3), omr-dsvpn (= 0.1.4-2), shorewall, shorewall6, iptables, v2ray-plugin (= 4.35.1), v2ray (= 4.35.1), linux-image-5.4.100-mptcp (= 1.18+9d3f35b)
+Conflicts: omr-server
+Replaces: omr-server
+Provides: omr-server
+Filename: ./omr-server_0.1026_all.deb
+Size: 3957180
+MD5sum: 456f375b198b338ae5627a951e9bc6fd
+SHA1: d578704f0807db948db001f414aa845e5d60cd8a
+SHA256: dbac5acd869d818b19bb0c282350a80fd9ba2972d1fda54c67c2d491dfd680a3
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/ysurac/openmptcprouter-vps
+Description: OpenMPTCProuter Server script
+
+Package: omr-shadowsocks-libev
+Version: 3.3.5-1
+Architecture: amd64
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 1042
+Depends: libcap2-bin, lsb-base (>= 3.0-6), libc-ares2 (>= 1.11.0~rc1), libc6 (>= 2.14), libev4 (>= 1:4.04), libmbedcrypto3 (>= 2.13), libpcre3, libsodium23 (>= 1.0.12)
+Suggests: haveged, kcptun, simple-obfs
+Breaks: shadowsocks
+Replaces: shadowsocks
+Filename: ./omr-shadowsocks-libev_3.3.5-1_amd64.deb
+Size: 202048
+MD5sum: a930128f21f83d6084f4260d95235658
+SHA1: cb2c8295b41d749525650a95b786b11e9b4bfaea
+SHA256: 64cc1fc31fdd70aa27bd81499fa638b8ba6c9eb16b0c08290ed2a33ef0c9086b
+Section: net
+Priority: optional
+Homepage: https://www.shadowsocks.org
+Description: lightweight and secure socks5 proxy
+ Shadowsocks-libev is a lightweight and secure socks5 proxy for
+ embedded devices and low end boxes.
+ .
+ Shadowsocks-libev was inspired by Shadowsocks (in Python). It's rewritten
+ in pure C and only depends on libev, mbedTLS and a few other tiny
+ libraries.
+
+Package: omr-shadowsocks-libev
+Version: 3.3.5-2
+Architecture: amd64
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 1042
+Depends: libcap2-bin, lsb-base (>= 3.0-6), libc-ares2 (>= 1.11.0~rc1), libc6 (>= 2.14), libev4 (>= 1:4.04), libmbedcrypto3 (>= 2.13), libpcre3, libsodium23 (>= 1.0.12)
+Suggests: haveged, kcptun, simple-obfs
+Breaks: shadowsocks
+Replaces: shadowsocks
+Filename: ./omr-shadowsocks-libev_3.3.5-2_amd64.deb
+Size: 202440
+MD5sum: e1c064892c510ad99489be6a067035ac
+SHA1: 4818937f2816990d1e1b82e6cdbde90e3ca079d3
+SHA256: 2f671c63e4eb49e883f424d4c7e07aac19f397ca08311af41c5162d8bc4cff1e
+Section: net
+Priority: optional
+Homepage: https://www.shadowsocks.org
+Description: lightweight and secure socks5 proxy
+ Shadowsocks-libev is a lightweight and secure socks5 proxy for
+ embedded devices and low end boxes.
+ .
+ Shadowsocks-libev was inspired by Shadowsocks (in Python). It's rewritten
+ in pure C and only depends on libev, mbedTLS and a few other tiny
+ libraries.
+
+Package: omr-shadowsocks-libev
+Version: 3.3.5-3
+Architecture: amd64
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 1042
+Depends: libcap2-bin, lsb-base (>= 3.0-6), libc-ares2 (>= 1.11.0~rc1), libc6 (>= 2.14), libev4 (>= 1:4.04), libmbedcrypto3 (>= 2.13), libpcre3, libsodium23 (>= 1.0.12)
+Suggests: haveged, kcptun, simple-obfs
+Breaks: shadowsocks
+Replaces: shadowsocks
+Filename: ./omr-shadowsocks-libev_3.3.5-3_amd64.deb
+Size: 202884
+MD5sum: f98aa38a7a6a2549fc4b4cb28989bea1
+SHA1: 6402972d273dcff411045e88fe6a6015af8c748c
+SHA256: 7f6b07a64048cbd921a95353877d74ab8b649bc6e1fba4b7915beebb0fa8e856
+Section: net
+Priority: optional
+Homepage: https://www.shadowsocks.org
+Description: lightweight and secure socks5 proxy
+ Shadowsocks-libev is a lightweight and secure socks5 proxy for
+ embedded devices and low end boxes.
+ .
+ Shadowsocks-libev was inspired by Shadowsocks (in Python). It's rewritten
+ in pure C and only depends on libev, mbedTLS and a few other tiny
+ libraries.
+
+Package: omr-shadowsocks-libev-build-deps
+Version: 3.3.5-3
+Architecture: all
+Maintainer: root <root@b856f1799395>
+Installed-Size: 9
+Depends: build-essential:amd64, asciidoc-base | asciidoc, debhelper (>= 10), libc-ares-dev, libev-dev, libmbedtls-dev, libpcre3-dev, libsodium-dev (>= 1.0.12), pkg-config, xmlto
+Filename: ./omr-shadowsocks-libev-build-deps_3.3.5-3_all.deb
+Size: 2212
+MD5sum: b602c6f08e1b2184d5a1eeffd2ba274d
+SHA1: 5481857318c515856cf821a2060ac2844e5b497f
+SHA256: 64abfa92b4a785a4219125e70e13095edf2cce8129f9c9e844b62b7b6504d26d
+Section: devel
+Priority: optional
+Multi-Arch: foreign
+Description: build-dependencies for omr-shadowsocks-libev
+ Dependency package to build the 'omr-shadowsocks-libev' package
+
+Package: omr-shadowsocks-libev-dbgsym
+Source: omr-shadowsocks-libev
+Version: 3.3.5-3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 1289
+Depends: omr-shadowsocks-libev (= 3.3.5-3)
+Filename: ./omr-shadowsocks-libev-dbgsym_3.3.5-3_amd64.deb
+Size: 1148684
+MD5sum: cbfabd359d328ba0c9b5c2edda3c40a6
+SHA1: ec98d9138bc5ea955f144b77fc71cbb77d91a35c
+SHA256: c84095510ac8d03d28623a734d6ce3b4d02cf02fa693f080b59083269c49e37a
+Section: debug
+Priority: optional
+Description: debug symbols for omr-shadowsocks-libev
+Build-Ids: 4c450c9ffa18f2ed0d04d9f0f79e264ca883241b 61fe2325f5d78fb539c98deaddf4e1b5c3ce7410 7ed556d8999b6e6405d892bdb6da3896fe25f135 c63049f1f2559b8cc7961e7077e0fa6fd4e9ad27 d2b4e647e71f56d106268af2adf953f17e2c340c
+
+Package: omr-simple-obfs
+Version: 0.0.5-1
+Architecture: amd64
+Maintainer: Roger Shimizu <rogershimizu@gmail.com>
+Installed-Size: 209
+Depends: libcap2-bin, omr-shadowsocks-libev (>= 3.0.5), libc6 (>= 2.14), libev4 (>= 1:4.04)
+Filename: ./omr-simple-obfs_0.0.5-1_amd64.deb
+Size: 53978
+MD5sum: 4484d51634982356f40173425a08f663
+SHA1: 938508ae6a68a8130c29c56daf11f02d6b4241d0
+SHA256: 9e141398ae0a0cf08ead82dcaeff51d81268ce12f38018272d970d563a71d13b
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/shadowsocks/simple-obfs
+Description: simple obfusacting plugin for shadowsocks-libev
+ Simple-obfs is a simple obfusacting tool, designed as plugin
+ server/client of shadowsocks-libev.
+ .
+ Simple-obfs is written in pure C and takes advantage of libev to
+ achieve both high performance and low resource consumption.
+
+Package: omr-vps-admin
+Version: 0.15+20250519
+Architecture: all
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 218
+Depends: python3:any, python3-uvicorn, python3-netaddr, python3-pip, python3-netifaces, python3-aiofiles, python3-psutil, jq, ipcalc
+Filename: ./omr-vps-admin_0.15+20250519_all.deb
+Size: 29856
+MD5sum: fda00f8d7931c6e1479ccd3755ce3e19
+SHA1: 73307eca2af2332b2b8964d19835620a3293a40e
+SHA256: 3308f2df4bd303d17d373bc0332bdeae77e77d59b575cde2b91cce2998328331
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/ysurac/openmptcprouter-vps-admin
+Description: OpenMPTCProuter VPS admin rest api
+
+Package: omr-vps-admin
+Version: 0.3+20210315
+Architecture: all
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 154
+Depends: python3:any, python3-uvicorn, python3-netaddr, python3-pip, python3-netifaces, python3-aiofiles, python3-psutil, jq, ipcalc
+Filename: ./omr-vps-admin_0.3+20210315_all.deb
+Size: 20860
+MD5sum: a77a0b0b6fdb130854d70c3850e7e092
+SHA1: 875f4b115838c2395f8d8c7dee80709558ed25ce
+SHA256: d226a5129425b50d858ef538feaf2d8b7528ff7c1eed14da4666f868b10070d1
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/ysurac/openmptcprouter-vps-admin
+Description: OpenMPTCProuter VPS admin rest api
+
+Package: omr-vps-admin
+Version: 0.3+20210325
+Architecture: all
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 154
+Depends: python3:any, python3-uvicorn, python3-netaddr, python3-pip, python3-netifaces, python3-aiofiles, python3-psutil, jq, ipcalc
+Filename: ./omr-vps-admin_0.3+20210325_all.deb
+Size: 20908
+MD5sum: eca667da20adaa030f726a7283407228
+SHA1: 45e2d5bfade31baf5bc6fd1f4b4cf438756b7e96
+SHA256: 7fcda52690b710b5d080cde92b5bd679c81d58be1a998aa9f6346e39021e3fba
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/ysurac/openmptcprouter-vps-admin
+Description: OpenMPTCProuter VPS admin rest api
+
+Package: omr-vps-admin
+Version: 0.3+20210414
+Architecture: all
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 154
+Depends: python3:any, python3-uvicorn, python3-netaddr, python3-pip, python3-netifaces, python3-aiofiles, python3-psutil, jq, ipcalc
+Filename: ./omr-vps-admin_0.3+20210414_all.deb
+Size: 21140
+MD5sum: 61facdfad80772c8648eb0745b6a80a0
+SHA1: a590c48ee22de74760d2469bb6dcc871dbbc73a3
+SHA256: 0f6a98614300c6b567677861375bfd8a46dfdb8ac8c64cde98a06af28edf153d
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/ysurac/openmptcprouter-vps-admin
+Description: OpenMPTCProuter VPS admin rest api
+
+Package: omr-vps-admin
+Version: 0.3+20210508
+Architecture: all
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 154
+Depends: python3:any, python3-uvicorn, python3-netaddr, python3-pip, python3-netifaces, python3-aiofiles, python3-psutil, jq, ipcalc
+Filename: ./omr-vps-admin_0.3+20210508_all.deb
+Size: 21164
+MD5sum: 0e42e91ba3d6dae271a5b3786830ceb3
+SHA1: 48605dc7c12b349c2f4399767a0877ccecfa1f92
+SHA256: 2880c3661fe4a6e57bbd2176f5da8d8831a785af2d30bae4d112f5809c040f7b
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/ysurac/openmptcprouter-vps-admin
+Description: OpenMPTCProuter VPS admin rest api
+
+Package: omr-vps-admin
+Version: 0.3+20220715
+Architecture: all
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 160
+Depends: python3:any, python3-uvicorn, python3-netaddr, python3-pip, python3-netifaces, python3-aiofiles, python3-psutil, jq, ipcalc
+Filename: ./omr-vps-admin_0.3+20220715_all.deb
+Size: 21848
+MD5sum: 7d17107b962337fa33ee2905e3f36a5e
+SHA1: 4e0233d4bdf8289bde6f5558d80ee0293dff2aa8
+SHA256: 40fa39f5e1b060347c5e1e7640b390e74074d2b95baa4f65673116d9b2874789
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/ysurac/openmptcprouter-vps-admin
+Description: OpenMPTCProuter VPS admin rest api
+
+Package: omr-vps-admin
+Version: 0.3+20220827
+Architecture: all
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 160
+Depends: python3:any, python3-uvicorn, python3-netaddr, python3-pip, python3-netifaces, python3-aiofiles, python3-psutil, jq, ipcalc
+Filename: ./omr-vps-admin_0.3+20220827_all.deb
+Size: 21960
+MD5sum: 6f513940300e6f9197c186347f87eb53
+SHA1: 8dd10ca5846a65c1d55e98e590e3670d959a5662
+SHA256: 53962e6ef891be1cc69a9a2009d24910010472bf17bca15b13433c19d3ddb276
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/ysurac/openmptcprouter-vps-admin
+Description: OpenMPTCProuter VPS admin rest api
+
+Package: python3-flask
+Version: 1.0.2
+Architecture: all
+Maintainer: Pallets team <contact@palletsprojects.com>
+Installed-Size: 448
+Depends: python3-click (>= 5.1), python3-itsdangerous (>= 0.24), python3-jinja2 (>= 2.10), python3-werkzeug (>= 0.14), python3.5
+Filename: ./python3-flask_1.0.2_all.deb
+Size: 71192
+MD5sum: 2357719f11e91f34faf41787fc1c2ba3
+SHA1: b4fe853915093a111322d26fa004f445ae678d68
+SHA256: 46e16beeb47ed9556c5c64d85149f5b07c93c96b9cabbf32cac6f201fd593a53
+Section: python
+Priority: optional
+Description: Python package Flask converted by py2deb on March 30, 2019 at 07:34
+
+Package: python3-flask-jwt-simple
+Version: 0.0.3
+Architecture: all
+Maintainer: Landon Gilbert-Bland <landogbland@gmail.com>
+Installed-Size: 140
+Depends: python3-flask, python3-pyjwt, python3.5
+Filename: ./python3-flask-jwt-simple_0.0.3_all.deb
+Size: 9738
+MD5sum: a79a1b9952923f7a4e4adb2deef3ccb0
+SHA1: 2e191e47b9369a7aad4a9c062c4fc2954b110848
+SHA256: c1ad8cd7729a3dc12969af3aed168c3842909e9042e5ab45e6c314e809ab7e86
+Section: python
+Priority: optional
+Description: Python package flask-jwt-simple converted by py2deb on March 30, 2019 at 07:34
+
+Package: python3-itsdangerous
+Version: 1.1.0
+Architecture: all
+Maintainer: Pallets Team <contact@palletsprojects.com>
+Installed-Size: 160
+Depends: python3.5
+Filename: ./python3-itsdangerous_1.1.0_all.deb
+Size: 15162
+MD5sum: be8934f8bccf7b8ccb6ec5d9dfd5033c
+SHA1: f005347d1e536769c0bbfbb0f8591b425de6a722
+SHA256: 444494a144e23e721b736cd14ad0db120c9adfb5fdba3ef2f2831a048c2a6674
+Section: python
+Priority: optional
+Description: Python package itsdangerous converted by py2deb on March 30, 2019 at 07:34
+
+Package: python3-jinja2
+Version: 2.10
+Architecture: all
+Maintainer: Armin Ronacher <armin.ronacher@active-4.com>
+Installed-Size: 592
+Depends: python3-markupsafe (>= 0.23), python3.5
+Filename: ./python3-jinja2_2.10_all.deb
+Size: 95326
+MD5sum: 3ca08cd7459ff90aeba42d1b2dbff2a4
+SHA1: 5967a190e4d13208f773e9133d20f90a544e1a59
+SHA256: d473723d8ead245adfc1664f9fd1cec48f100cd99c34067dea45d1e622bfca4a
+Section: python
+Priority: optional
+Description: Python package Jinja2 converted by py2deb on March 30, 2019 at 07:34
+
+Package: python3-markupsafe
+Version: 1.1.1
+Architecture: amd64
+Maintainer: The Pallets Team <contact@palletsprojects.com>
+Installed-Size: 152
+Depends: libc6 (>= 2.14), python3.5
+Filename: ./python3-markupsafe_1.1.1_amd64.deb
+Size: 17236
+MD5sum: afc12303442004e371a61168c4734180
+SHA1: c2bd9d1ea102b19ad03844588ccc5c451b0acc5a
+SHA256: f3121c76b54e96b75e66b46d94a7b77ab33b4645bb24fed4392ca00422f1363f
+Section: python
+Priority: optional
+Description: Python package MarkupSafe converted by py2deb on March 30, 2019 at 07:34
+
+Package: python3-pyjwt
+Version: 1.7.1
+Architecture: all
+Maintainer: Jose Padilla <hello@jpadilla.com>
+Installed-Size: 192
+Depends: python3.5
+Filename: ./python3-pyjwt_1.7.1_all.deb
+Size: 16556
+MD5sum: 68baa8ed5ed4ddf80ccdbdccb3bda9ed
+SHA1: 03b018695b053c78d7ca2f89026dd21f9908441a
+SHA256: 9b4533fcb4f5544df7a86ef83846e5555492262078bdc23ce01d767bb0e6d74d
+Section: python
+Priority: optional
+Description: Python package PyJWT converted by py2deb on March 30, 2019 at 07:34
+
+Package: python3-uvicorn
+Source: python-uvicorn
+Version: 0.11.5-1
+Architecture: all
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 173
+Depends: python3-wsproto, python3-click, python3-h11, python3-websockets, python3:any
+Suggests: python-uvicorn-doc
+Enhances: python3-gunicorn
+Filename: ./python3-uvicorn_0.11.5-1_all.deb
+Size: 28844
+MD5sum: cd1bb98e76c00a64897411f32c8e8020
+SHA1: 558cb4e08dbf5f88be3ca74d11ab8751c5ce6915
+SHA256: 84780417cf4872cfa45c730e168580227e65f09cb90200bf46d04dc3e98a4354
+Section: python
+Priority: optional
+Homepage: https://github.com/encode/uvicorn/
+Description: ASGI server implementation, using uvloop and httptools (Python3 version)
+ Uvicorn is a fast ASGI server, built on uvloop and httptools. It currently
+ supports HTTP/1.1 and WebSockets.
+ .
+ Uvicorn is designed with particular attention to connection and resource
+ management, in order to provide a robust server implementation. It aims to
+ ensure graceful behavior to either server or client errors, and resilience to
+ poor client behavior or denial of service attacks.
+ .
+ This package contains the Python 3 version of the library.
+
+Package: python3-uvloop
+Source: uvloop
+Version: 0.14.0+ds1-1
+Architecture: amd64
+Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 3689
+Depends: python3 (<< 3.9), python3 (>= 3.7~), python3:any, libc6 (>= 2.14), libuv1 (>= 1.30.1)
+Filename: ./python3-uvloop_0.14.0+ds1-1_amd64.deb
+Size: 1060472
+MD5sum: 5617e008068d7d0e98cd9a3acea626fa
+SHA1: 10ec05dc1655b5ae11ef4ef34bfaf2f6c3bcacd3
+SHA256: c6c2e4ee109e37f7f399687cfaf7b55d4d4bd850e9e1e2b561f418b843947b7a
+Section: python
+Priority: optional
+Homepage: https://github.com/MagicStack/uvloop
+Description: fast implementation of asyncio event loop on top of libuv
+ uvloop is a fast, drop-in replacement of the built-in asyncio
+ event loop. uvloop is implemented in Cython and uses libuv
+ under the hood. It makes asyncio 2-4x faster.
+
+Package: python3-watchgod
+Version: 0.6-1
+Architecture: all
+Maintainer: Yannick Chabanois <ycarus@zugaina.org>
+Installed-Size: 47
+Depends: python3:any
+Filename: ./python3-watchgod_0.6-1_all.deb
+Size: 9040
+MD5sum: 629eebb5f4d1b2b52554d00a154a2999
+SHA1: 5105f2a1fcae4b73c907bc987d9ff9157fa9fb6c
+SHA256: 40e87ab024bfcd26c0488e1e79bba17fb2e3b10f2b9460181034954cdcdcecb1
+Section: python
+Priority: optional
+Description: Watchgod (Python3)
+ This is the Python3 package.
+
+Package: python3-werkzeug
+Version: 0.15.1
+Architecture: all
+Maintainer: The Pallets Team <contact@palletsprojects.com>
+Installed-Size: 1248
+Depends: python3.5
+Filename: ./python3-werkzeug_0.15.1_all.deb
+Size: 246936
+MD5sum: 1134b5ddadf421f967a0f1d57f6d3bc7
+SHA1: a8fa80ebe987ed048145d65c82c2917ff502b931
+SHA256: a25b775ee3f962baa704066912c0c7c39c2049189da8d0786b300ccf31c5a122
+Section: python
+Priority: optional
+Description: Python package Werkzeug converted by py2deb on March 30, 2019 at 07:34
+
+Package: python3-wsproto
+Source: python-wsproto
+Version: 0.15.0-3
+Architecture: all
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 105
+Depends: python3-h11, python3:any
+Filename: ./python3-wsproto_0.15.0-3_all.deb
+Size: 24416
+MD5sum: 4aa420cdf48aaacbff12e98c0a20faa6
+SHA1: 88af0fddd782be657a91a06205684b9dfe5744d0
+SHA256: 924b19c34057155748b19d6932c7190fd6cff8486afdd91cc18b8b6055df2d46
+Section: python
+Priority: optional
+Homepage: https://github.com/python-hyper/wsproto
+Description: WebSockets state-machine based protocol implementation (Python3)
+ Pure-Python implementation of a WebSocket protocol stack. It's
+ written from the ground up to be embeddable in whatever program you
+ choose to use, ensuring that you can communicate via WebSockets, as
+ defined in RFC6455, regardless of your programming paradigm.
+ .
+ This is the Python3 package.
+
+Package: shadowsocks-go
+Version: 1.14.0
+Architecture: amd64
+Maintainer: ycarus
+Installed-Size: 9484
+Provides: shadowsocks-go
+Filename: ./shadowsocks-go_1.14.0_amd64.deb
+Size: 2911488
+MD5sum: 6fdaeac4bfba9817ba53ac7c6295b80f
+SHA1: c77dcf2a79b6a60d9d0a7633298466356e79d0a3
+SHA256: 4464cddac16ea59d5df57214c8c6552549aaf5a8e771543622ea02d70f329c62
+Section: net
+Priority: extra
+Homepage: https://github.com/database64128/shadowsocks-go
+Description: A versatile and efficient proxy platform for secure communications.
+
+Package: tracebox
+Version: 0.4.4
+Architecture: amd64
+Maintainer: Olivier Tilmans <olivier.tilmans@uclouvain.be>
+Installed-Size: 1011
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libjson-c3 (>= 0.10), liblua5.2-0, libpcap0.8 (>= 1.5.1), libstdc++6 (>= 5.2), libnetfilter-queue1, libcurl4-gnutls-dev
+Filename: ./tracebox_0.4.4_amd64.deb
+Size: 221882
+MD5sum: 43ebc9b6c8f4e47793344268cdb3f4f3
+SHA1: 323fe0ae57a909c07bb59365a87b91f442362f01
+SHA256: 9596c2c9ebd76c5d7c68c1bdf04b4487a5f20ba80f9a2e38fb5521c61ca26ec0
+Section: net
+Priority: extra
+Homepage: http://www.tracebox.org
+Description: Tracebox
+ Tracebox is a tool that allows to detect middleboxes on any paths, i.e.,
+ between a source and any destination. Tracebox can be viewed as a tool similar
+ to traceroute as it uses ICMP replies to identify changes in the packets.
+
+Package: v2ray
+Version: 4.35.1
+Architecture: amd64
+Maintainer: dreamrover
+Installed-Size: 33640
+Provides: v2ray, v2ctl
+Filename: ./v2ray_4.35.1_amd64.deb
+Size: 8337014
+MD5sum: 8da97a7db606e03fd196de8864447003
+SHA1: 591f408c1e1534b10f784f861aaa1e7918950495
+SHA256: 4877123e3e5a902fded98fbe3bcda9b277bd3d42cf63ceb32a60afb0e55aba45
+Section: net
+Priority: extra
+Homepage: https://github.com/v2ray/v2ray-core
+Description: Project V
+ Project V is a set of network tools that help you to build your own computer network. It secures your network connections and thus protects your privacy. See our website for more information.
+
+Package: v2ray
+Version: 4.43.0
+Architecture: amd64
+Maintainer: dreamrover
+Installed-Size: 46680
+Provides: v2ray, v2ctl
+Filename: ./v2ray-4.43.0-amd64.deb
+Size: 9309174
+MD5sum: d1dce14df87565ae34a4671b71816249
+SHA1: a57e3a12f123f3779d6a5c49114af352d1f3bfe7
+SHA256: 1e521a530c0aa7b751bd7bb7d3c8514cd9ea6f075ec6b02b5ea5b23b3ba07424
+Section: net
+Priority: extra
+Homepage: https://github.com/v2ray/v2ray-core
+Description: Project V
+ Project V is a set of network tools that help you to build your own computer network. It secures your network connections and thus protects your privacy. See our website for more information.
+
+Package: v2ray
+Version: 5.32.0
+Architecture: amd64
+Maintainer: dreamrover
+Installed-Size: 57692
+Provides: v2ray, v2ctl
+Filename: ./v2ray_5.32.0_amd64.deb
+Size: 11546872
+MD5sum: 15c5588add76db80b0764af0be7ce370
+SHA1: 86fb8e24dd441096210ca0aeced674a8bff98dd3
+SHA256: ea0a26d5fe9e6051543197624031051c3452d9c5ae2f29d970e47a2e6e32909c
+Section: net
+Priority: extra
+Homepage: https://github.com/v2fly/v2ray-core
+Description: Project V
+ Project V is a set of network tools that help you to build your own computer network. It secures your network connections and thus protects your privacy. See our website for more information.
+
+Package: v2ray-plugin
+Version: 4.35.1
+Architecture: amd64
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 10021
+Depends: omr-shadowsocks-libev
+Filename: ./v2ray-plugin_4.35.1_amd64.deb
+Size: 2832236
+MD5sum: fc843d9243b0a1f910bbb943787fcd02
+SHA1: 00c897de24b0a1c30dd117207388331ef02adafd
+SHA256: 5bdaef3e3f646045c3cc3673286cee5ae49c852897a8e46b3cc888825ff1e27b
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/shadowsocks/v2ray-plugin
+Description: OpenMPTCProuter VPS admin rest api
+
+Package: v2ray-plugin
+Version: 4.43.0
+Architecture: amd64
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 12273
+Depends: omr-shadowsocks-libev
+Filename: ./v2ray-plugin_4.43.0_amd64.deb
+Size: 3464982
+MD5sum: b032fbcc49139b8a173b26eb73cd14ed
+SHA1: 080abdfb6c86502dad25bd8b69b4ee8f88a63443
+SHA256: 38493e2d31b7f6d8b3da05ef8313c44892f0ad429a06d1a0879c0f8d6ebe0148
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/shadowsocks/v2ray-plugin
+Description: OpenMPTCProuter VPS admin rest api
+
+Package: xray
+Version: 25.6.8
+Architecture: amd64
+Maintainer: dreamrover
+Installed-Size: 56108
+Provides: xray
+Filename: ./xray_25.6.8_amd64.deb
+Size: 11788716
+MD5sum: 7ddc0d864237384d77986bb0088a63b5
+SHA1: d2a3328f5ebc72d3f1dab3500ee7d154d7c7852d
+SHA256: 126c5c686446692f4e381c0c9a82c2e8d6ea981c2d2c0dd6440ff0f7fda5946d
+Section: net
+Priority: extra
+Homepage: https://github.com/XTLS/Xray-core
+Description: Project X
+ Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support.
+
