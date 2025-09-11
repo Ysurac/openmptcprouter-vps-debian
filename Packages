@@ -704,6 +704,23 @@ Homepage: https://github.com/ysurac/openmptcprouter-vps-admin
 Description: OpenMPTCProuter VPS admin rest api
 
 Package: omr-vps-admin
+Version: 0.16+20250909
+Architecture: all
+Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
+Installed-Size: 226
+Depends: python3:any, python3-uvicorn, python3-netaddr, python3-pip, python3-netifaces, python3-aiofiles, python3-psutil, jq, ipcalc
+Filename: ./omr-vps-admin_0.16+20250909_all.deb
+Size: 30916
+MD5sum: 03e582c0d707f3fdf92829df57b6d77b
+SHA1: 17679db75dc6c3b8ef6e145f8c0afd188e2fa93a
+SHA256: 9d3048f40dda2e1c97f23481613c080dd3401ec8b4cc142b9953328eb18ba06e
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/ysurac/openmptcprouter-vps-admin
+Description: OpenMPTCProuter VPS admin rest api
+
+Package: omr-vps-admin
 Version: 0.3+20210315
 Architecture: all
 Maintainer: OpenMPTCProuter <contact@openmptcprouter.com>
@@ -804,6 +821,35 @@ Priority: optional
 Multi-Arch: foreign
 Homepage: https://github.com/ysurac/openmptcprouter-vps-admin
 Description: OpenMPTCProuter VPS admin rest api
+
+Package: openvpn
+Version: 2.6.14-1
+Architecture: amd64
+Maintainer: Bernhard Schmidt <berni@debian.org>
+Installed-Size: 1783
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.38), libcap-ng0 (>= 0.7.9), liblz4-1 (>= 0.0~r130), liblzo2-2 (>= 2.02), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libpam0g (>= 0.99.7.1), libpkcs11-helper1t64 (>= 1.28), libssl3t64 (>= 3.4.0), libsystemd0
+Recommends: easy-rsa
+Suggests: openssl, resolvconf, openvpn-dco-dkms, openvpn-systemd-resolved
+Filename: ./openvpn_2.6.14-1_amd64.deb
+Size: 662176
+MD5sum: 7edf3d32af001d4dc9503ab1d3cc822f
+SHA1: 6eb878128ff46d23634135b29d9b116df8b89ad0
+SHA256: f3da4291784939e3c05070a361f9e5d67941c196c2eda767deec30d75998f442
+Section: net
+Priority: optional
+Homepage: https://openvpn.net/
+Description: virtual private network daemon
+ OpenVPN is an application to securely tunnel IP networks over a
+ single UDP or TCP port. It can be used to access remote sites, make
+ secure point-to-point connections, enhance wireless security, etc.
+ .
+ OpenVPN uses all of the encryption, authentication, and certification
+ features provided by the OpenSSL library (any cipher, key size, or
+ HMAC digest).
+ .
+ OpenVPN may use static, pre-shared keys or TLS-based dynamic key exchange. It
+ also supports VPNs with dynamic endpoints (DHCP or dial-up clients), tunnels
+ over NAT or connection-oriented stateful firewalls (such as Linux's iptables).
 
 Package: python3-flask
 Version: 1.0.2
