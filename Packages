@@ -986,26 +986,6 @@ Description: ASGI server implementation, using uvloop and httptools (Python3 ver
  .
  This package contains the Python 3 version of the library.
 
-Package: python3-uvloop
-Source: uvloop
-Version: 0.14.0+ds1-1
-Architecture: amd64
-Maintainer: Piotr Ożarowski <piotr@debian.org>
-Installed-Size: 3689
-Depends: python3 (<< 3.9), python3 (>= 3.7~), python3:any, libc6 (>= 2.14), libuv1 (>= 1.30.1)
-Filename: ./python3-uvloop_0.14.0+ds1-1_amd64.deb
-Size: 1060472
-MD5sum: 5617e008068d7d0e98cd9a3acea626fa
-SHA1: 10ec05dc1655b5ae11ef4ef34bfaf2f6c3bcacd3
-SHA256: c6c2e4ee109e37f7f399687cfaf7b55d4d4bd850e9e1e2b561f418b843947b7a
-Section: python
-Priority: optional
-Homepage: https://github.com/MagicStack/uvloop
-Description: fast implementation of asyncio event loop on top of libuv
- uvloop is a fast, drop-in replacement of the built-in asyncio
- event loop. uvloop is implemented in Cython and uses libuv
- under the hood. It makes asyncio 2-4x faster.
-
 Package: python3-watchgod
 Version: 0.6-1
 Architecture: all
