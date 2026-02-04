@@ -1262,3 +1262,71 @@ Homepage: https://github.com/XTLS/Xray-core
 Description: Project X
  Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support.
 
+Package: xray
+Version: 26.1.18
+Architecture: arm64
+Maintainer: dreamrover
+Installed-Size: 28556
+Provides: xray
+Filename: ./xray-26.1.18-arm64.deb
+Size: 7100936
+MD5sum: d3874b7286706d61fb28f26db899437d
+SHA1: f2b3066aa8fd0268906363da546b5094ac051fc2
+SHA256: 25bf3e5997927607a496d31bfe3c09cdce0830af5763a753da56268189fcee03
+Section: net
+Priority: extra
+Homepage: https://github.com/XTLS/Xray-core
+Description: Project X
+ Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support.
+
+Package: xray
+Version: 26.1.18
+Architecture: amd64
+Maintainer: dreamrover
+Installed-Size: 30496
+Provides: xray
+Filename: ./xray-26.1.18-amd64.deb
+Size: 8378376
+MD5sum: cc8831a1f6846e342de1627a493cb270
+SHA1: 55650e9be6f892bd19fd0f87a015024a78f4a928
+SHA256: 9fea6e48c525eec35aa68d80b7cb21a590660356ec64f87bfeb2a92146292960
+Section: net
+Priority: extra
+Homepage: https://github.com/XTLS/Xray-core
+Description: Project X
+ Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support.
+
+Package: xray
+Version: 26.2.4
+Architecture: arm64
+Maintainer: dreamrover
+Installed-Size: 28556
+Provides: xray
+Filename: ./xray-26.2.4-arm64.deb
+Size: 7099016
+MD5sum: 46339c8b392a25394190c498ad306d62
+SHA1: 0722a5075755b883038441f155cd9c2cf871c12e
+SHA256: 85f5deec108e0966b4b84f698808e632672d4e0ad98830da178acb7bd7a2f61a
+Section: net
+Priority: extra
+Homepage: https://github.com/XTLS/Xray-core
+Description: Project X
+ Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support.
+
+Package: xray
+Version: 26.2.4
+Architecture: amd64
+Maintainer: dreamrover
+Installed-Size: 30496
+Provides: xray
+Filename: ./xray-26.2.4-amd64.deb
+Size: 8379412
+MD5sum: 4362307e5f50e2a3808b4b7352f50f7a
+SHA1: 5c2585795d1d7f5687acc0e8544440a26624f72b
+SHA256: 1bde9c835a62843a12c184efcef34374db00807a70087b2fd4725affd74bb57e
+Section: net
+Priority: extra
+Homepage: https://github.com/XTLS/Xray-core
+Description: Project X
+ Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support.
+
