@@ -115,16 +115,16 @@ Description: MultiLink Virtual Public Network aggregator.
  MLVPN aggregates multiple links into one tun/tap tunnel.
 
 Package: mqvpn
-Version: 0.5.0-1
+Version: 0.3.2-1
 Architecture: amd64
 Maintainer: mqvpn maintainers <maintainers@example.com>
-Installed-Size: 3153
-Depends: libc6 (>= 2.34), libevent-2.1-7 (>= 2.1.8-stable), libgcc-s1 (>= 3.4), libstdc++6 (>= 5), libmqvpn0 (= 0.5.0-1)
-Filename: ./mqvpn_0.5.0-1_amd64.deb
-Size: 1239508
-MD5sum: 4e8dc8a2caaca4047f5e856b6363c21d
-SHA1: 6db7c467d366207da427c25690b58b0a8ec1ade5
-SHA256: ab4ec05f8f350efa5446e5d8a4507d1bb267cc4c604e945659273a02f42cb425
+Installed-Size: 3199
+Depends: libc6 (>= 2.34), libevent-2.1-7 (>= 2.1.8-stable), libgcc-s1 (>= 3.4), libstdc++6 (>= 5), libmqvpn0 (= 0.3.2-1)
+Filename: ./mqvpn_0.3.2-1_amd64.deb
+Size: 1261636
+MD5sum: aa075971c70013aa195fa8963691cf79
+SHA1: 61ea8c75c9cd2ecd1c96c01f0863b3d900bfdebd
+SHA256: 3aa64f1095005e2c8581542c95f2c2a56526d2d2a66b7feba9646ffd12aa5d0f
 Section: net
 Priority: optional
 Homepage: https://github.com/mp0rta/mqvpn
