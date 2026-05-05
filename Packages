@@ -114,6 +114,34 @@ Homepage: http://www.mlvpn.fr/
 Description: MultiLink Virtual Public Network aggregator.
  MLVPN aggregates multiple links into one tun/tap tunnel.
 
+Package: mqvpn
+Version: 0.5.0-1
+Architecture: amd64
+Maintainer: mqvpn maintainers <maintainers@example.com>
+Installed-Size: 3153
+Depends: libc6 (>= 2.34), libevent-2.1-7 (>= 2.1.8-stable), libgcc-s1 (>= 3.4), libstdc++6 (>= 5), libmqvpn0 (= 0.5.0-1)
+Filename: ./mqvpn_0.5.0-1_amd64.deb
+Size: 1239508
+MD5sum: 4e8dc8a2caaca4047f5e856b6363c21d
+SHA1: 6db7c467d366207da427c25690b58b0a8ec1ade5
+SHA256: ab4ec05f8f350efa5446e5d8a4507d1bb267cc4c604e945659273a02f42cb425
+Section: net
+Priority: optional
+Homepage: https://github.com/mp0rta/mqvpn
+Description: Multipath QUIC VPN using MASQUE CONNECT-IP
+ mqvpn is a VPN daemon implementing MASQUE CONNECT-IP (RFC 9484) over
+ HTTP Datagrams and QUIC DATAGRAMs, with Multipath QUIC support for
+ bandwidth aggregation and seamless failover across multiple interfaces.
+ .
+ Features:
+  - Multipath (WiFi + LTE, dual ISP) with WLB scheduler
+  - Standards-based: MASQUE CONNECT-IP (RFC 9484)
+  - Dual-stack IPv4 + IPv6 inside the tunnel
+  - PSK authentication and per-user credentials
+  - DNS override to prevent leaks
+  - Backup/failover paths (standby until all primary paths are down)
+  - JSON control API for runtime management
+
 Package: omr-dsvpn
 Version: 0.1.4-2
 Architecture: amd64
